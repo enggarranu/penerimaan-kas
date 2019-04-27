@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e7343c2-198d-4728-aa97-c5d3d2560155" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="69" column="49" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
+              <folding>
+                <element signature="n#select#0;n#div#4;n#form#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/list_anggota.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-459" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/form_pinjaman.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="983" column="47" selection-start-line="983" selection-start-column="39" selection-end-line="983" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/sidebar-menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/report.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-102" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/sidebar-menu-user.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-964" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/form_anggota.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5542">
+              <caret line="326" column="70" selection-start-line="326" selection-start-column="66" selection-end-line="326" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/login_management.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5253" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>email_</find>
+      <find>$(&quot;#sidebar_menu&quot;)</find>
+      <find>$(&quot;#sidebar_menu&quot;).load(&quot;./sidebar-menu.html&quot;);</find>
+      <find>(&quot;jenis_role&quot;) == admin</find>
+      <find>(&quot;jenis_role&quot;) == &quot;admin&quot;</find>
+      <find>table</find>
+      <find>id_petugas</find>
+      <find>no_ktp</find>
+      <find>nama_anggota</find>
+      <find>alamat</find>
+      <find>don't</find>
+      <find>telepon</find>
+      <find>Pengambilan Pinjaman</find>
+      <find>list_nama_anggota</find>
+      <find>id_transaksi</find>
+      <find>nama angg</find>
+      <find>id_pembayaran</find>
+      <find>get_data_pinjaman</find>
+      <find>sisa_pinjama</find>
+      <find>angsuran</find>
+      <find>angsuran_ke</find>
+      <find>hit_register_pengambilan</find>
+      <find>hit_bayar</find>
+      <find>pinjaman</find>
+      <find>tangga</find>
+      <find>sidebar-menu-user</find>
+      <find>Anggota Koperasi</find>
+      <find>setoran</find>
+      <find>icon</find>
+      <find>input</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>./</replace>
+      <replace>./theme</replace>
+      <replace>Koperasi Sejahtrea | Usra Tampi Indonesia</replace>
+      <replace>list_anggota.html</replace>
+      <replace>Sejahtera | KS-UTI</replace>
+      <replace>http://47.74.245.145:5000</replace>
+      <replace>jenis_role</replace>
+      <replace />
+      <replace>if(sessionStorage.getItem(&quot;jenis_role&quot;) == admin) {     $(&quot;#sidebar_menu&quot;).load(&quot;./sidebar-menu.html&quot;);     } else {     $(&quot;#sidebar_menu&quot;).load(&quot;./sidebar-menu-user.html&quot;);     }</replace>
+      <replace>(&quot;jenis_role&quot;) == &quot;admin&quot;</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\xampp\htdocs\koperasi\pages</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/blank.html" />
+        <option value="$PROJECT_DIR$/panel.html" />
+        <option value="$PROJECT_DIR$/footer.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/content.php" />
+        <option value="$PROJECT_DIR$/include/footer.php" />
+        <option value="$PROJECT_DIR$/include/header.php" />
+        <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/main/pages/index-clt.html" />
+        <option value="$PROJECT_DIR$/main/assets/pages/scripts/md5-min.js" />
+        <option value="$PROJECT_DIR$/main/pages/index.html" />
+        <option value="$PROJECT_DIR$/main/pages/property.html" />
+        <option value="$PROJECT_DIR$/main/pages/layout_blank_page.html" />
+        <option value="$PROJECT_DIR$/main/pages/property_header.html" />
+        <option value="$PROJECT_DIR$/main/pages/property_footer.html" />
+        <option value="$PROJECT_DIR$/main/pages/sidebar.html" />
+        <option value="$PROJECT_DIR$/main/pages/property_page-toolbar.html" />
+        <option value="$PROJECT_DIR$/main/pages/property_quick_nav.html" />
+        <option value="$PROJECT_DIR$/main/pages/content.html" />
+        <option value="$PROJECT_DIR$/main/pages/property_sidebar.html" />
+        <option value="$PROJECT_DIR$/main/pages/page_user_login_4.html" />
+        <option value="$PROJECT_DIR$/pages/pengambilan.html" />
+        <option value="$PROJECT_DIR$/pages/page_user_lock_2.html" />
+        <option value="$PROJECT_DIR$/pages/page_user_login_4.html" />
+        <option value="$PROJECT_DIR$/assets/pages/scripts/login-4.min.js" />
+        <option value="$PROJECT_DIR$/pages/index.html" />
+        <option value="$PROJECT_DIR$/pages/list_setoran.html" />
+        <option value="$PROJECT_DIR$/pages/form_setoran.html" />
+        <option value="$PROJECT_DIR$/pages/form_pengambilan.html" />
+        <option value="$PROJECT_DIR$/pages/form_anggota.html" />
+        <option value="$PROJECT_DIR$/pages/sidebar-menu-user.html" />
+        <option value="$PROJECT_DIR$/pages/form_petugas.html" />
+        <option value="$PROJECT_DIR$/pages/login_management.html" />
+        <option value="$PROJECT_DIR$/pages/list_anggota.html" />
+        <option value="$PROJECT_DIR$/pages/form_pinjaman.html" />
+        <option value="$PROJECT_DIR$/pages/form_bayar_cicilan.html" />
+        <option value="$PROJECT_DIR$/pages/list_pengambilan.html" />
+        <option value="$PROJECT_DIR$/pages/list_pinjaman.html" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/pages/sidebar-menu.html" />
+        <option value="$PROJECT_DIR$/pages/login.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="penerimaan-kas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="penerimaan-kas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="penerimaan-kas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="penerimaan-kas" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="penerimaan-kas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="penerimaan-kas" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="penerimaan-kas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="penerimaan-kas" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="D:\xampp\htdocs\koperasi\node_modules\eslint" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\koperasi\main\pages" />
+      <recent name="D:\xampp\htdocs\koperasi\include" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\penerimaan-kas\pages" />
+      <recent name="D:\xampp\htdocs\koperasi\pages" />
+      <recent name="D:\xampp\htdocs\koperasi\main\pages" />
+      <recent name="D:\xampp\htdocs\koperasi" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e7343c2-198d-4728-aa97-c5d3d2560155" name="Default" comment="" />
+      <created>1526508389450</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526508389450</updated>
+      <workItem from="1526508392743" duration="226000" />
+      <workItem from="1526509111199" duration="3544000" />
+      <workItem from="1526532748017" duration="5746000" />
+      <workItem from="1526543505716" duration="1547000" />
+      <workItem from="1526612226085" duration="13521000" />
+      <workItem from="1526632957804" duration="7693000" />
+      <workItem from="1526645944207" duration="3984000" />
+      <workItem from="1526712751040" duration="4324000" />
+      <workItem from="1526719097719" duration="12443000" />
+      <workItem from="1526750960572" duration="8474000" />
+      <workItem from="1526847308400" duration="11836000" />
+      <workItem from="1526877499895" duration="5606000" />
+      <workItem from="1526887187884" duration="14239000" />
+      <workItem from="1526958503532" duration="4466000" />
+      <workItem from="1527236605710" duration="6576000" />
+      <workItem from="1527244500209" duration="83000" />
+      <workItem from="1527557505959" duration="5809000" />
+      <workItem from="1527741577556" duration="4211000" />
+      <workItem from="1527920210909" duration="13372000" />
+      <workItem from="1528077030312" duration="595000" />
+      <workItem from="1528257596786" duration="783000" />
+      <workItem from="1529486506239" duration="1228000" />
+      <workItem from="1530162184908" duration="1432000" />
+      <workItem from="1530377840535" duration="1039000" />
+      <workItem from="1530692570394" duration="799000" />
+      <workItem from="1530877099120" duration="856000" />
+      <workItem from="1531645332399" duration="2569000" />
+      <workItem from="1532074381752" duration="1574000" />
+      <workItem from="1532677453153" duration="6135000" />
+      <workItem from="1533008050861" duration="20304000" />
+      <workItem from="1533185489710" duration="11947000" />
+      <workItem from="1533205963192" duration="254000" />
+      <workItem from="1533300761077" duration="7549000" />
+      <workItem from="1533536897223" duration="5399000" />
+      <workItem from="1533627184424" duration="1685000" />
+      <workItem from="1533711689173" duration="2467000" />
+      <workItem from="1533953442495" duration="2432000" />
+      <workItem from="1534042373742" duration="1321000" />
+      <workItem from="1534392466387" duration="3781000" />
+      <workItem from="1534489586501" duration="1814000" />
+      <workItem from="1534519878555" duration="5384000" />
+      <workItem from="1534569128301" duration="693000" />
+      <workItem from="1535429465801" duration="493000" />
+      <workItem from="1556300121416" duration="3855000" />
+    </task>
+    <task id="LOCAL-00001" summary="fix fingsi pinjaman">
+      <created>1530877508124</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530877508124</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix fingsi pinjaman">
+      <created>1532677597222</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532677597222</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fix header">
+      <created>1533022609911</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1533022609911</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix header and add menu">
+      <created>1533105446320</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1533105446320</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Change Hit URL">
+      <created>1533127266222</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1533127266222</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fix Bug">
+      <created>1533196880132</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1533196880133</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix Bug">
+      <created>1533198380287</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1533198380287</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Jumlah Pinjaman">
+      <created>1533199434921</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1533199434921</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add menu sidebar and add form petugas">
+      <created>1533205818982</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1533205818982</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add menu sidebar and add form petugas">
+      <created>1533206037873</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1533206037873</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add menu sidebar and add form petugas">
+      <created>1533206194430</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1533206194430</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Improve Register Petugas">
+      <created>1533302851545</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1533302851546</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Improve Register Petugas">
+      <created>1533303310958</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1533303310958</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add login Management Page">
+      <created>1533538441186</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1533538441186</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add login Management Page">
+      <created>1533544017783</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1533544017783</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Add login Management Page">
+      <created>1533544567757</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1533544567757</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add login Management Page">
+      <created>1533712067262</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1533712067262</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add login Management Page">
+      <created>1533713144793</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1533713144793</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Bayar Cicilan">
+      <created>1534401341106</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1534401341107</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Bayar Cicilan">
+      <created>1534531900749</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1534531900749</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="214088000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2983631" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32979977" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32979977" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2983631" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32979977" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32979977" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix fingsi pinjaman" />
+    <MESSAGE value="Fix header" />
+    <MESSAGE value="Fix header and add menu" />
+    <MESSAGE value="Change Hit URL" />
+    <MESSAGE value="Fix Bug" />
+    <MESSAGE value="Jumlah Pinjaman" />
+    <MESSAGE value="add menu sidebar and add form petugas" />
+    <MESSAGE value="Improve Register Petugas" />
+    <MESSAGE value="Add login Management Page" />
+    <MESSAGE value="Bayar Cicilan" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bayar Cicilan" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main/assets/global/css/components-rounded.min.css" />
+    <entry file="file://$PROJECT_DIR$/main/assets/global/plugins/jquery.min.js" />
+    <entry file="file://$PROJECT_DIR$/main/pages/index.html" />
+    <entry file="file://$PROJECT_DIR$/main/pages/property_header.html" />
+    <entry file="file://$PROJECT_DIR$/main/pages/property_footer.html" />
+    <entry file="file://$PROJECT_DIR$/main/pages/layout_blank_page.html" />
+    <entry file="file://$PROJECT_DIR$/main/pages/property_sidebar.html" />
+    <entry file="file://$PROJECT_DIR$/main/pages/content-backup.html" />
+    <entry file="file://$PROJECT_DIR$/main/pages/property_page-toolbar.html" />
+    <entry file="file://$PROJECT_DIR$/main/pages/property_quick_nav.html" />
+    <entry file="file://$PROJECT_DIR$/main/pages/content.html" />
+    <entry file="file://$PROJECT_DIR$/main/pages/page_user_login_4.html" />
+    <entry file="file://$PROJECT_DIR$/assets/pages/scripts/table-datatables-editable.min.js" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/phrase.rnc" />
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/bootstrap/css/bootstrap.min.css" />
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/respond.min.js" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/core-scripting.rnc" />
+    <entry file="file://$PROJECT_DIR$/assets/pages/css/login-4.min.css" />
+    <entry file="file://$PROJECT_DIR$/assets/pages/scripts/login-4.min.js" />
+    <entry file="file://$PROJECT_DIR$/pages/page_user_lock_2.html" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms.rnc" />
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/jquery-ui/jquery-ui.min.js" />
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/jquery-validation/js/jquery.validate.js" />
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" />
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="15730" column="12" selection-start-line="15730" selection-start-column="12" selection-end-line="15730" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/aria.rnc" />
+    <entry file="file://$PROJECT_DIR$/pages/index.html" />
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/bootstrap-select/css/bootstrap-select.min.css" />
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/select2/js/select2.full.min.js" />
+    <entry file="file://$PROJECT_DIR$/pages/form_pengambilan_BAK.html" />
+    <entry file="file://$PROJECT_DIR$/pages/form_pengambilan_bak2.html" />
+    <entry file="file://$PROJECT_DIR$/pages/pengambilan.html" />
+    <entry file="file://$PROJECT_DIR$/pages/setoran.html" />
+    <entry file="file://$PROJECT_DIR$/pages/bayar_cicilan.html" />
+    <entry file="file://$PROJECT_DIR$/additional/New Text Document.txt" />
+    <entry file="file://$PROJECT_DIR$/pages/form_pengambilan.html" />
+    <entry file="file://$PROJECT_DIR$/pages/form_setoran.html" />
+    <entry file="file://$PROJECT_DIR$/pages/list_setoran.html" />
+    <entry file="file://$PROJECT_DIR$/pages/form_petugas.html" />
+    <entry file="file://$PROJECT_DIR$/pages/list_pengambilan.html" />
+    <entry file="file://$PROJECT_DIR$/pages/form_bayar_cicilan.html" />
+    <entry file="file://$PROJECT_DIR$/pages/list_pinjaman.html" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/login_management.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5253" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/list_anggota.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/form_pinjaman.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="983" column="47" selection-start-line="983" selection-start-column="39" selection-end-line="983" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/sidebar-menu-user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-964" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/form_anggota.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5542">
+          <caret line="326" column="70" selection-start-line="326" selection-start-column="66" selection-end-line="326" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/sidebar-menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="69" column="49" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
+          <folding>
+            <element signature="n#select#0;n#div#4;n#form#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

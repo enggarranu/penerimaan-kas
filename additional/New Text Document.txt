@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inquiry Agent Member | CLT</title>
+    <!-- PACE-->
+    <link rel="stylesheet" type="text/css" href="./plugins/PACE/themes/blue/pace-theme-flash.css">
+    <script type="text/javascript" src="./plugins/PACE/pace.min.js"></script>
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" type="text/css" href="./plugins/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Fonts-->
+    <link rel="stylesheet" type="text/css" href="./plugins/themify-icons/themify-icons.css">
+    <!-- Malihu Scrollbar-->
+    <link rel="stylesheet" type="text/css"
+          href="./plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css">
+    <!-- Animo.js-->
+    <link rel="stylesheet" type="text/css" href="./plugins/animo.js/animate-animo.min.css">
+    <!-- Flag Icons-->
+    <link rel="stylesheet" type="text/css" href="./plugins/flag-icon-css/css/flag-icon.min.css">
+    <!-- Bootstrap Progressbar-->
+    <link rel="stylesheet" type="text/css"
+          href="./plugins/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css">
+    <!-- Sweet Alert-->
+    <link rel="stylesheet" type="text/css" href="./plugins/bootstrap-sweetalert/lib/sweet-alert.css">
+    <!-- Toastr-->
+    <link rel="stylesheet" type="text/css" href="./plugins/toastr/toastr.min.css">
+    <!-- Primary Style-->
+    <link rel="stylesheet" type="text/css" href="./build/css/third-layout.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file://-->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script type="text/javascript" src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="main-container">
+    <div class="page-content container-fluid">
+        <div class="widget">
+            <div class="widget-body">
+                <div class="row mb-15">
+                </div>
+                <ul role="tablist" class="nav nav-tabs mb-15" id="tab_list">
+                    <li role="presentation" class="active"><a id="summary-agent-tab" href="#summary-agent" role="tab" data-toggle="tab"
+                                               aria-controls="summary" aria-expanded="true">Agent</a></li>
+                    <li role="presentation"><a id="summary-member-tab" href="#summary-member" role="tab"
+                                                              data-toggle="tab" aria-controls="summary1"
+                                                              aria-expanded="false">Member</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="summary-member" role="tabpanel" aria-labelledby="summary-member-tab"
+                         class="tab-pane fade">
+                        <div class="row">
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <div class="input-group">
+                                        <input type="text" placeholder="ID MemberAccount / No Handphone / No Kartu Member" class="form-control" id="input_member"><span
+                                            class="input-group-btn">
+                                <button type="button" class="btn btn-outline btn-default" id="btn_go_mem">Go!</button></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--member summary start-->
+                        <div class="row mt-10">
+                      <span class="col-sm-6">
+                        <div class="panel panel-success">
+                          <div class="panel-heading">
+                            <h3 class="panel-title">Member Summary</h3>
+                          </div>
+                          <div class="panel-body">
+                            <table class="table table-striped">
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">Status Akun</th>
+                                    <td>: <span id="status_akun_mem"></span></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Status Verifikasi</th>
+                                    <td>: <span id="status_verifikasi_mem"></span></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Nama Pemilik</th>
+                                    <td>: <span id="nama_mem"></span></td>
+                                  </tr>
+                                <tr>
+                                    <th scope="row">No KTP</th>
+                                    <td>: <span id="no_ktp_mem"></span></td>
+                                  </tr>
+                                <tr>
+                                    <th scope="row">Tempat Lahir</th>
+                                    <td>: <span id="tempat_lahir_mem"></span></td>
+                                  </tr>
+                                <tr>
+                                    <th scope="row">Tanggal Lahir</th>
+                                    <td>: <span id="tanggal_lahir_mem"></span></td>
+                                  </tr>
+                                <tr>
+                                    <th scope="row">Jenis Kelamin</th>
+                                    <td>: <span id="jenis_kelamin_mem"></span></td>
+                                  </tr>
+                                <tr>
+                                    <th scope="row">Alamat</th>
+                                    <td>: <span id="alamat_mem"></span></td>
+                                  </tr>
+                                <tr>
+                                    <th scope="row">Telepon</th>
+                                    <td>: <span id="telepon_mem"></span></td>
+                                  </tr>
+                                <tr>
+                                    <th scope="row">Nama Ibu Kandung</th>
+                                    <td>: <span id="nama_ibu_kandung_mem"></span></td>
+                                  </tr>
+                                </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </span>
+                            <!--member summary end-->
+                            <!--member lastbalance start-->
+                            <span class="col-sm-6">
+                        <div class="panel panel-danger">
+                          <div class="panel-heading">
+                            <h3 class="panel-title">Account Info</h3>
+                          </div>
+                          <div class="panel-body">
+                            <table class="table table-striped">
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">Nomor Kartu</th>
+                                      <td>: <span id="nomor_kartu_mem"></span></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Nomor HP (Username)</th>
+                                      <td>: <span id="no_hp_mem"></span></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">ID Member</th>
+                                    <td>: <span id="id_member_mem"></span></td>
+                                  </tr>
+                                </tbody>
+                            </table>
+                              <hr>
+                              <h1>Balance : <span class="pricing-currency">Rp. </span><span id="balance_mem" class="count"></span></h1>
+                          </div>
+                        </div>
+                      </span>
+                            <!--member lastbalance end-->
+                            <!--agent mutas start-->
+                            <div class="row">
+                        <span class="col-sm-12">
+                          <div class="panel panel-info">
+                          <div class="panel-heading">
+                            <h3 class="panel-title" align="center">6 Transaksi Terakhir</h3>
+                          </div>
+                          <div class="panel-body">
+                            <div class="row">
+                                <!--princing start-->
+                                <div class="pricing-table pricing-2" id="detail_trasaction_member">
+
+                                </div>
+                                <!--princing end-->
+                            </div>
+                            </div>
+                          </div>
+                        </span>
+                            </div>
+                            <!--agent mutasi end-->
+                    </div>
+                    </div>
+                    <div id="summary-agent" role="tabpanel" aria-labelledby="summary-agent-tab"
+                         class="tab-pane fade active in">
+                        <div class="row">
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <div class="input-group">
+                                        <input type="text" placeholder="ID AgentAccount / Nomor Kartu Agent / SN EDC / FLID" class="form-control" id="input_agent" name="input_agent"><span
+                                            class="input-group-btn">
+                                    <button type="button" class="btn btn-outline btn-default" id="btn_go_agent">Go!</button></span>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+
+                        <!--agent summary start-->
+                        <div class="row mt-10">
+                          <span class="col-sm-6">
+                            <div class="panel panel-success">
+                              <div class="panel-heading">
+                                <h3 class="panel-title">Agent Summary</h3>
+                              </div>
+                              <div class="panel-body">
+                                <table class="table table-striped">
+                                    <tbody>
+                                     <tr>
+                                         <th scope="row">FL-ID</th>
+                                         <td>: <span id="flid_agent"></span></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">Tipe Agent</th>
+                                        <td>: <span id="tipe_agent"></span></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">Status Akun</th>
+                                        <td>: <span id="status_akun_agent"></span></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">Lokasi Cabang</th>
+                                        <td>: <span id="cabang_agent"></span></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">Nama Pemilik</th>
+                                        <td>: <span id="nama_pemilik_agent"></span></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">Nama Kios</th>
+                                        <td>: <span id="nama_kios_agent"></span></td>
+                                      </tr>
+                                    <tr>
+                                        <th scope="row">No KTP</th>
+                                        <td>: <span id="no_ktp_agent"></span></td>
+                                      </tr>
+                                    <tr>
+                                        <th scope="row">Tempat Lahir</th>
+                                        <td>: <span id="tempat_lahir_agent"></span></td>
+                                      </tr>
+                                    <tr>
+                                        <th scope="row">Tanggal Lahir</th>
+                                        <td>: <span id="tanggal_lahir_agent"></span></td>
+                                      </tr>
+                                    <tr>
+                                        <th scope="row">Jenis Kelamin</th>
+                                        <td>: <span id="jenis_kelamin_agent"></span></td>
+                                      </tr>
+                                    <tr>
+                                        <th scope="row">Alamat</th>
+                                        <td>: <span id="alamat_agent"></span></td>
+                                      </tr>
+                                    <tr>
+                                        <th scope="row">Telepon</th>
+                                        <td>: <span id="telepon_agent"></span></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">HP</th>
+                                        <td>: <span id="hp_agent"></span></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">E-Mail</th>
+                                        <td>: <span id="email_agent"></span></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">Tanggal Aktivasi</th>
+                                        <td>: <span id="tanggal_aktivasi_agent"></span></td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                              </div>
+                            </div>
+                           </span>
+                            <!--agent summary end-->
+                            <!--agent lastbalance start-->
+                            <span class="col-sm-6">
+                                <div class="panel panel-danger">
+                                     <div class="panel-heading">
+                                        <h3 class="panel-title">Account Info</h3>
+                                    </div>
+
+                                    <div class="panel-body">
+                                        <table class="table table-striped">
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">NIK AE</th>
+                                                      <td>: <span id="nik_ae_agent"></span></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">Nama AE</th>
+                                                      <td>: <span id="nama_ae_agent"></span></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">Nomor Kartu</th>
+                                                      <td>: <span id="nomor_kartu_agent"></span></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">Serial Number EDC</th>
+                                                      <td>: <span id="serial_number_edc"></span></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">ID Agent</th>
+                                                    <td>: <span id="id_agent"></span></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">ID Agent Account</th>
+                                                    <td>: <span id="id_agent_account"></span></td>
+                                                </tr>
+                                             </tbody>
+                                         </table>
+                                        <hr>
+                                        <h1>LastBalance : <span class="pricing-currency">Rp. </span><span id="balance_agent" class="count"></span></h1>
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                        <!--agent mutas start-->
+                        <div class="row">
+                        <span class="col-sm-12">
+                          <div class="panel panel-info">
+                          <div class="panel-heading">
+                            <h3 class="panel-title" align="center">6 Transaksi Terakhir</h3>
+                          </div>
+                          <div class="panel-body">
+                            <div class="row">
+                                <!--princing start-->
+                                <div class="pricing-table pricing-2" id="detail_trasaction">
+
+                                </div>
+                                <!--princing end-->
+                            </div>
+                            </div>
+                          </div>
+                        </span>
+                    </div>
+                    <!--agent mutasi end-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- jQuery-->
+<script type="text/javascript" src="./plugins/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap JavaScript-->
+<script type="text/javascript" src="./plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- Malihu Scrollbar-->
+<script type="text/javascript"
+        src="./plugins/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+<!-- Animo.js-->
+<script type="text/javascript" src="./plugins/animo.js/animo.min.js"></script>
+<!-- Bootstrap Progressbar-->
+<script type="text/javascript" src="./plugins/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+<!-- jQuery Easy Pie Chart-->
+<script type="text/javascript" src="./plugins/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+<!-- Custom JS-->
+<script type="text/javascript" src="./build/js/third-layout/app.js"></script>
+<script type="text/javascript" src="./build/js/third-layout/demo.js"></script>
+<!-- Sweet Alert-->
+<script type="text/javascript" src="./plugins/bootstrap-sweetalert/lib/sweet-alert.min.js"></script>
+<!-- Toastr-->
+<script type="text/javascript" src="./plugins/toastr/toastr.min.js"></script>
+</div>
+</body>
+</html>
+
+<script>
+    $(document).ready(function () {
+        var input_agent = "";
+        $('.page-container').css("padding-left", "0px");
+        $('.main-container').css("padding-top", "0px");
+
+
+        toastr.options = {
+            "closeButton": true,
+            "debug": false,
+            "newestOnTop": false,
+            "progressBar": true,
+            "positionClass": "toast-top-right",
+            "preventDuplicates": true,
+            "onclick": null,
+            "showDuration": "300",
+            "hideDuration": "1000",
+            "timeOut": "5000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        }
+
+        var clear_mem = function() {
+            $("#status_akun_mem").html("")
+            $("#status_verifikasi_mem").html("")
+            $("#nama_mem").html("")
+            $("#no_ktp_mem").html("")
+            $("#tempat_lahir_mem").html("")
+            $("#tanggal_lahir_mem").html("")
+            $("#jenis_kelamin_mem").html("")
+            $("#alamat_mem").html("")
+            $("#telepon_mem").html("")
+            $("#nama_ibu_kandung_mem").html("")
+            $("#nomor_kartu_mem").html("")
+            $("#no_hp_mem").html("")
+            $("#id_member_mem").html("")
+            $("#balance_mem").html("")
+            $("#tipe_trx_mem_1").html("")
+            $("#nominal_mem_1").html("")
+            $("#keterangan_mem_1").html("")
+            $("#timestamp_mem_1").html("")
+            $("#status_trx_mem_1").html("")
+            $("#tipe_trx_mem_2").html("")
+            $("#nominal_mem_2").html("")
+            $("#keterangan_mem_2").html("")
+            $("#timestamp_mem_2").html("")
+            $("#status_trx_mem_2").html("")
+            $("#tipe_trx_mem_3").html("")
+            $("#nominal_mem_3").html("")
+            $("#keterangan_mem_3").html("")
+            $("#timestamp_mem_3").html("")
+            $("#status_trx_mem_3").html("")
+            $("#tipe_trx_mem_4").html("")
+            $("#nominal_mem_4").html("")
+            $("#keterangan_mem_4").html("")
+            $("#timestamp_mem_4").html("")
+            $("#status_trx_mem_4").html("")
+            $("#tipe_trx_mem_5").html("")
+            $("#nominal_mem_5").html("")
+            $("#keterangan_mem_5").html("")
+            $("#timestamp_mem_5").html("")
+            $("#status_trx_mem_5").html("")
+            $("#tipe_trx_mem_6").html("")
+            $("#nominal_mem_6").html("")
+            $("#keterangan_mem_6").html("")
+            $("#timestamp_mem_6").html("")
+            $("#status_trx_mem_6").html("")
+        }
+
+        var hit_mem = function () {
+            var input_mem = $("#input_member").val()
+            var res = ""
+            var json_obj = new Object();
+            json_obj.input_member = input_mem;
+            console.log(json_obj)
+
+            $.ajax({
+                type: "POST",
+                url: "http://172.16.10.123:5000/member/",
+                // The key needs to match your method's input parameter (case-sensitive).
+                data: JSON.stringify(json_obj),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function(data){
+                    console.log(data);
+                    if (data['response'] == 'OK') {
+                        $("#status_akun_mem").html(data['status_akun_mem'])
+                        $("#status_verifikasi_mem").html(data['status_verifikasi_mem'])
+                        $("#nama_mem").html(data['nama_mem'])
+                        $("#no_ktp_mem").html(data['no_ktp_mem'])
+                        $("#tempat_lahir_mem").html(data['tempat_lahir_mem'])
+                        $("#tanggal_lahir_mem").html(data['tanggal_lahir_mem'])
+                        $("#jenis_kelamin_mem").html(data['jenis_kelamin_mem'])
+                        $("#alamat_mem").html(data['alamat_mem'])
+                        $("#telepon_mem").html(data['telepon_mem'])
+                        $("#nama_ibu_kandung_mem").html(data['nama_ibu_kandung_mem'])
+                        $("#nomor_kartu_mem").html(data['nomor_kartu_mem'])
+                        $("#no_hp_mem").html(data['no_hp_mem'])
+                        $("#id_member_mem").html(data['id_member_mem'])
+                        $("#balance_mem").html(data['balance_mem'])
+                        var data_transaksi_arr = data['transaksi']
+                        console.info(data_transaksi_arr);
+                        $("#detail_trasaction_member").html("");
+                        var html = "";
+                        var counter = 1;
+                        for(i in data_transaksi_arr){
+                            if(counter == 1){
+                                html += '<div class="row">'
+                            }
+                            html += '<div class="col-md-4">'+
+                                '<div class="pricing-item">'+
+                                '<h5 class="pricing-title">'+data_transaksi_arr[i][0]+'</h5>'+
+                                '<div class="pricing-price"><span class="pricing-currency">Rp.</span>'+data_transaksi_arr[i][1]+'</div>'+
+                                '<h4><p class="pricing-sentence">'+data_transaksi_arr[i][6]+'<br><br>'+ data_transaksi_arr[i][5] +' </p></h4>'+
+                                '<ul class="list-unstyled pricing-feature-list">'+
+                                '<li>Keterangan : '+data_transaksi_arr[i][2]+'</li>'+
+                                '<li>Status : '+data_transaksi_arr[i][4]+'</li>'+
+                                '<li>Timestamp : '+data_transaksi_arr[i][3]+'</li>'+
+                                '</ul>'+
+                                '</div>'+
+                                '</div>';
+                            if(counter ==3){
+                                html += '</div>';
+                                $("#detail_trasaction_member").append(html);
+                                html="";
+                                counter = 0;
+                            }
+                            counter++;
+                        }
+//                        class count begin
+                        $('.count').each(function () {
+                            $(this).prop('Counter',0).animate({
+                                Counter: $(this).text()
+                            }, {
+                                duration: 4000,
+                                easing: 'swing',
+                                step: function (now) {
+                                    $(this).text(Math.ceil(now));
+                                }
+                            });
+                        });
+//                        class count end
+                    } else {
+                        toastr["error"]("Data "+input_mem+" Tidak Ditemukan", "Error")
+                    }
+                },
+                failure: function(errMsg) {
+                    console.log(errMsg);
+                }
+            });
+        }
+
+        $("#btn_go_mem").on("click", function(){
+            clear_mem();
+            hit_mem();
+        });
+        $("#input_member").keypress(function (e) {
+            if (e.which == '13') {
+                clear_mem();
+                hit_mem();
+                return false;
+            }
+        });
+
+        var clear_agent = function () {
+            $("#tipe_agent").html("")
+            $("#flid_agent").html("")
+            $("#status_akun_agent").html("")
+            $("#nama_pemilik_agent").html("")
+            $("#cabang_agent").html("")
+            $("#nama_kios_agent").html("")
+            $("#no_ktp_agent").html("")
+            $("#tempat_lahir_agent").html("")
+            $("#tanggal_lahir_agent").html("")
+            $("#jenis_kelamin_agent").html("")
+            $("#alamat_agent").html("")
+            $("#telepon_agent").html("")
+            $("#email_agent").html("")
+            $("#tanggal_aktivasi_agent").html("")
+            $("#hp_agent").html("")
+            $("#nik_ae_agent").html("")
+            $("#nama_ae_agent").html("")
+            $("#nomor_kartu_agent").html("")
+            $("#serial_number_edc").html("")
+            $("#id_agent").html("")
+            $("#id_agent_account").html("")
+            $("#balance_agent").html("")
+            $("#detail_trasaction").html("")
+        }
+
+        var hit_agent = function () {
+            input_agent = $("#input_agent").val()
+            var json_obj = new Object();
+            json_obj.input_agent = input_agent;
+            console.log(json_obj)
+            $.ajax({
+                type: "POST",
+                url: "http://172.16.10.123:5000/agent/",
+                // The key needs to match your method's input parameter (case-sensitive).
+                data: JSON.stringify(json_obj),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function(data){
+                    console.log(data);
+                    if (data['response'] == 'OK') {
+                        $("#tipe_agent").html(data['tipe_agent'])
+                        $("#flid_agent").html(data['flid_agent'])
+                        $("#status_akun_agent").html(data['status_akun_agent'])
+                        $("#nama_pemilik_agent").html(data['nama_pemilik_agent'])
+                        $("#cabang_agent").html(data['cabang_agent'])
+                        $("#nama_kios_agent").html(data['nama_kios_agent'])
+                        $("#no_ktp_agent").html(data['no_ktp_agent'])
+                        $("#tempat_lahir_agent").html(data['tempat_lahir_agent'])
+                        $("#tanggal_lahir_agent").html(data['tanggal_lahir_agent'])
+                        $("#jenis_kelamin_agent").html(data['jenis_kelamin_agent'])
+                        $("#alamat_agent").html(data['alamat_agent'])
+                        $("#telepon_agent").html(data['telepon_agent'])
+                        $("#email_agent").html(data['email_agent'])
+                        $("#tanggal_aktivasi_agent").html(data['tanggal_aktivasi_agent'])
+                        $("#hp_agent").html(data['hp_agent'])
+                        $("#nik_ae_agent").html(data['nik_ae_agent'])
+                        $("#nama_ae_agent").html(data['nama_ae_agent'])
+                        $("#nomor_kartu_agent").html(data['nomor_kartu_agent'])
+                        $("#serial_number_edc").html(data['serial_number_edc'])
+                        $("#id_agent").html(data['id_agent'])
+                        $("#id_agent_account").html(data['id_agent_account'])
+                        $("#balance_agent").html(data['balance_agent'])
+                        var data_transaksi_arr = data['transaksi']
+                        console.info(data_transaksi_arr);
+                        $("#detail_trasaction").html("");
+                        var html = "";
+                        var counter = 1;
+                        for(i in data_transaksi_arr){
+                            if(counter == 1){
+                                html += '<div class="row">'
+                            }
+                                html += '<div class="col-md-4">'+
+                                    '<div class="pricing-item">'+
+                                        '<h5 class="pricing-title">'+data_transaksi_arr[i][0]+'</h5>'+
+                                            '<div class="pricing-price"><span class="pricing-currency">Rp.</span>'+data_transaksi_arr[i][1]+'</div>'+
+                                                '<h4><p class="pricing-sentence">'+data_transaksi_arr[i][6]+'<br><br>'+ data_transaksi_arr[i][5] +' </p></h4>'+
+                                                    '<ul class="list-unstyled pricing-feature-list">'+
+                                                        '<li>Keterangan : '+data_transaksi_arr[i][2]+'</li>'+
+                                                        '<li>Status : '+data_transaksi_arr[i][4]+'</li>'+
+                                                        '<li>Timestamp : '+data_transaksi_arr[i][3]+'</li>'+
+                                                    '</ul>'+
+                                            '</div>'+
+                                    '</div>';
+                            if(counter ==3){
+                                html += '</div>';
+                                $("#detail_trasaction").append(html);
+                                html="";
+                                counter = 0;
+                            }
+                            counter++;
+                        }
+//                        class count begin
+                        $('.count').each(function () {
+                            $(this).prop('Counter',0).animate({
+                                Counter: $(this).text()
+                            }, {
+                                duration: 4000,
+                                easing: 'swing',
+                                step: function (now) {
+                                    $(this).text(Math.ceil(now));
+                                }
+                            });
+                        });
+//                        class count end
+                    } else {
+                        toastr["error"]("Data "+input_agent+" Tidak Ditemukan", "Error")
+                    }
+                },
+                failure: function(errMsg) {
+                    console.log(errMsg);
+                }
+            });
+        }
+        $("#btn_go_agent").on("click", function(){
+            clear_agent();
+            hit_agent();
+        });
+        $("#input_agent").keypress(function (e) {
+            if (e.which == '13') {
+                clear_agent();
+                hit_agent();
+                return false;
+            }
+        });
+
+    });
+</script>
