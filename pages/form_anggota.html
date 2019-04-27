@@ -21,7 +21,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
     <head>
         <meta charset="utf-8" />
-        <title>Koperasi Sejahtrea | Usra Tampi Indonesia</title>
+        <title>Se7en Cella</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <meta content="Preview page of Metronic Admin Theme #4 for bootstrap inputs, input groups, custom checkboxes and radio controls and more" name="description" />
@@ -53,7 +53,11 @@ License: You must have a valid license purchased only from themeforest(the above
     <script src="../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
     <script>
             $(function(){
-            if(sessionStorage.getItem("jenis_role") == "admin") {     $("#sidebar_menu").load("./sidebar-menu.html");     } else {     $("#sidebar_menu").load("./sidebar-menu-user.html");     }
+            if(sessionStorage.getItem("jenis_role") == "admin" || true) {
+                $("#sidebar_menu").load("./sidebar-menu.html");
+            } else {
+                $("#sidebar_menu").load("./sidebar-menu-user.html");
+            }
         });
     </script>
     <!-- END HEAD -->
@@ -165,8 +169,8 @@ License: You must have a valid license purchased only from themeforest(the above
                     <div class="page-head">
                         <!-- BEGIN PAGE TITLE -->
                         <div class="page-title">
-                            <h1>Pendaftaran
-                                <small>Anggota</small>
+                            <h1>Penjualan
+                                <small>Pulsa</small>
                             </h1>
                         </div>
                         <!-- END PAGE TITLE -->
@@ -260,11 +264,11 @@ License: You must have a valid license purchased only from themeforest(the above
                             <i class="fa fa-circle"></i>
                         </li>
                         <li>
-                            <a href="#">Anggota Koperasi</a>
+                            <a href="#">Input Penjualan</a>
                             <i class="fa fa-circle"></i>
                         </li>
                         <li>
-                            <span class="active">Pendaftaran</span>
+                            <span class="active">Penjualan Pulsa</span>
                         </li>
                     </ul>
                     <!-- END PAGE BREADCRUMB -->
@@ -276,29 +280,58 @@ License: You must have a valid license purchased only from themeforest(the above
                                 <div class="portlet-title">
                                     <div class="caption font-red-sunglo">
                                         <i class="icon-user-follow font-red"></i>
-                                        <span class="caption-subject bold uppercase"> Form Pendaftaran Anggota Koperasi</span>
+                                        <span class="caption-subject bold uppercase"> Form Input Penjualan Pulsa</span>
                                     </div>
                                 </div>
                                 <div class="portlet-body form">
                                     <form role="form">
                                         <div class="form-body">
                                             <div class="form-group">
-                                                <label>Tanggal Registrasi</label>
-                                                    <div class="input-group input-medium date datepicker" data-date-format="dd-mm-yyyy" data-date-start-date="+0d">
-                                                        <input type="text" class="form-control" readonly id="datetimepicker1">
-                                                        <span class="input-group-btn">
+                                                <label>ID Transaksi</label>
+                                                <div class="input-icon">
+                                                    <i class="fa fa-tags"></i>
+                                                    <input type="text" class="form-control" id="id_anggota" readonly> </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label>Tanggal Transaksi</label>
+                                                <div class="input-group input-medium date datepicker" data-date-format="dd-mm-yyyy" data-date-start-date="+0d">
+                                                    <input type="text" class="form-control" id="datetimepicker1">
+                                                    <span class="input-group-btn">
                                                             <button class="btn default" type="button">
                                                                 <i class="fa fa-calendar"></i>
                                                             </button>
                                                         </span>
-                                                    </div>
+                                                </div>
                                             </div>
 
                                             <div class="form-group">
-                                                <label>ID Anggota</label>
+                                                <label>Catatan</label>
+                                                <textarea class="form-control" rows="3"></textarea>
+                                            </div>
+
+                                            <div class="form-group form-md-line-input has-error form-md-floating-label">
                                                 <div class="input-icon">
-                                                    <i class="fa fa-tags"></i>
-                                                    <input type="text" class="form-control" id="id_anggota" readonly> </div>
+                                                    <input type="text" class="form-control">
+                                                    <label>Harga Jual</label>
+                                                    <span class="help-block">Masukkan harga penjualan terhadap customer</span>
+                                                    <i class="fa fa-shopping-cart"></i>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group form-md-line-input has-success form-md-floating-label">
+                                                <div class="input-icon">
+                                                    <input type="text" class="form-control">
+                                                    <label>Regular input</label>
+                                                    <span class="help-block">Some help goes here...</span>
+                                                    <i class="fa fa-money"></i>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group form-md-line-input has-error">
+                                                <input type="text" class="form-control" readonly="" value="You can't edit this" id="form_control_1">
+                                                <label for="form_control_1">Keuntungan</label>
+                                                <i class="fa fa-line-chart"></i>
                                             </div>
 
                                             <div class="form-group">
@@ -956,9 +989,9 @@ License: You must have a valid license purchased only from themeforest(the above
     <script>
 
         $(document).ready(function (){
-            if(sessionStorage.getItem("username") == null || sessionStorage.getItem("username") == "") {
-                window.location.href = 'login.html';
-            }
+            // if(sessionStorage.getItem("username") == null || sessionStorage.getItem("username") == "") {
+            //     window.location.href = 'login.html';
+            // }
             var display_uname = "Hello, Selamat datang " + sessionStorage.getItem("username");
             document.getElementById('username').innerHTML = display_uname;
             // document.getElementById("datetimepicker1").value = moment().format("YYYY-MM-DD");

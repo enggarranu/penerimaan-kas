@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e7343c2-198d-4728-aa97-c5d3d2560155" name="Default" comment="" />
+    <list default="true" id="0e7343c2-198d-4728-aa97-c5d3d2560155" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/form_anggota.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/form_anggota.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/list_anggota.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/list_anggota.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/sidebar-menu-user.html" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,17 +21,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="105">
               <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="69" column="49" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
+            <state relative-caret-position="630">
+              <caret line="522" column="50" selection-start-line="522" selection-start-column="38" selection-end-line="522" selection-end-column="50" />
               <folding>
                 <element signature="n#select#0;n#div#4;n#form#1;n#div#1;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -37,14 +42,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/list_anggota.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-459" />
+            <state relative-caret-position="180">
+              <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/form_pinjaman.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
+            <state relative-caret-position="-1619">
               <caret line="983" column="47" selection-start-line="983" selection-start-column="39" selection-end-line="983" selection-end-column="47" />
             </state>
           </provider>
@@ -53,7 +60,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/sidebar-menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
+            <state relative-caret-position="615">
               <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
             </state>
           </provider>
@@ -61,32 +68,21 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/report.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/sidebar-menu-user.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-964" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/form_anggota.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5542">
-              <caret line="326" column="70" selection-start-line="326" selection-start-column="66" selection-end-line="326" selection-end-column="70" />
+            <state relative-caret-position="570">
+              <caret line="333" column="74" selection-start-line="333" selection-start-column="74" selection-end-line="333" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/login_management.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5253" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -101,7 +97,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>email_</find>
       <find>$(&quot;#sidebar_menu&quot;)</find>
       <find>$(&quot;#sidebar_menu&quot;).load(&quot;./sidebar-menu.html&quot;);</find>
       <find>(&quot;jenis_role&quot;) == admin</find>
@@ -131,6 +126,7 @@
       <find>setoran</find>
       <find>icon</find>
       <find>input</find>
+      <find>Koperasi Sejahtrea | Usra Tampi Indonesi</find>
     </findStrings>
     <replaceStrings>
       <replace>./</replace>
@@ -183,11 +179,9 @@
         <option value="$PROJECT_DIR$/pages/list_setoran.html" />
         <option value="$PROJECT_DIR$/pages/form_setoran.html" />
         <option value="$PROJECT_DIR$/pages/form_pengambilan.html" />
-        <option value="$PROJECT_DIR$/pages/form_anggota.html" />
         <option value="$PROJECT_DIR$/pages/sidebar-menu-user.html" />
         <option value="$PROJECT_DIR$/pages/form_petugas.html" />
         <option value="$PROJECT_DIR$/pages/login_management.html" />
-        <option value="$PROJECT_DIR$/pages/list_anggota.html" />
         <option value="$PROJECT_DIR$/pages/form_pinjaman.html" />
         <option value="$PROJECT_DIR$/pages/form_bayar_cicilan.html" />
         <option value="$PROJECT_DIR$/pages/list_pengambilan.html" />
@@ -195,6 +189,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/pages/sidebar-menu.html" />
         <option value="$PROJECT_DIR$/pages/login.html" />
+        <option value="$PROJECT_DIR$/pages/list_anggota.html" />
+        <option value="$PROJECT_DIR$/pages/form_anggota.html" />
       </list>
     </option>
   </component>
@@ -210,7 +206,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,6 +233,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,20 +242,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="D:\xampp\htdocs\koperasi\node_modules\eslint" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="D:/xampp/htdocs/koperasi/node_modules/eslint" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\xampp\htdocs\koperasi\main\pages" />
-      <recent name="D:\xampp\htdocs\koperasi\include" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\penerimaan-kas\pages" />
       <recent name="D:\xampp\htdocs\koperasi\pages" />
       <recent name="D:\xampp\htdocs\koperasi\main\pages" />
       <recent name="D:\xampp\htdocs\koperasi" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\koperasi\main\pages" />
+      <recent name="D:\xampp\htdocs\koperasi\include" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -328,6 +327,7 @@
       <workItem from="1534569128301" duration="693000" />
       <workItem from="1535429465801" duration="493000" />
       <workItem from="1556300121416" duration="3855000" />
+      <workItem from="1556343127515" duration="6256000" />
     </task>
     <task id="LOCAL-00001" summary="fix fingsi pinjaman">
       <created>1530877508124</created>
@@ -473,12 +473,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214088000" />
+    <option name="totallyTimeSpent" value="220344000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="0" y="27" width="1920" height="1013" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2983631" />
+      <window_info id="Gulp" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2978387" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -590,59 +591,55 @@
     <entry file="file://$PROJECT_DIR$/pages/list_pinjaman.html" />
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="105">
           <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/login_management.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5253" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/pages/report.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/list_anggota.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/pages/sidebar-menu-user.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/login_management.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/form_pinjaman.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
+        <state relative-caret-position="-1619">
           <caret line="983" column="47" selection-start-line="983" selection-start-column="39" selection-end-line="983" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/sidebar-menu-user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-964" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/form_anggota.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5542">
-          <caret line="326" column="70" selection-start-line="326" selection-start-column="66" selection-end-line="326" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/sidebar-menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
+        <state relative-caret-position="615">
           <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="69" column="49" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
+        <state relative-caret-position="630">
+          <caret line="522" column="50" selection-start-line="522" selection-start-column="38" selection-end-line="522" selection-end-column="50" />
           <folding>
             <element signature="n#select#0;n#div#4;n#form#1;n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/list_anggota.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/form_anggota.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="333" column="74" selection-start-line="333" selection-start-column="74" selection-end-line="333" selection-end-column="74" />
         </state>
       </provider>
     </entry>
