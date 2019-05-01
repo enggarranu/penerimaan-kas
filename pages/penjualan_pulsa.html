@@ -306,36 +306,37 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
 
                                             <div class="form-group">
+                                                <div class="col-md-4">
+                                                <label>Operator</label>
+                                                <div class="input-icon">
+                                                    <i class="fa fa-tags"></i>
+                                                    <input type="text" class="form-control" id="operator" readonly> </div>
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <label>No HP</label>
+                                                    <div class="input-icon">
+                                                        <i class="fa fa-tags"></i>
+                                                        <input type="number" class="form-control" id="no_hp"> </div>
+                                                </div>
+
+                                                <div class="col-md-2">
+                                                    <label>Denom</label>
+                                                    <div class="input-icon">
+                                                        <i class="fa fa-tags"></i>
+                                                        <input type="text" class="form-control" id="denom"  </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <br></br>
+                                                <br></br>
+                                            </div>
+
+                                            <div class="form-group">
                                                 <label>Catatan</label>
                                                 <textarea class="form-control" rows="3"></textarea>
                                             </div>
-
-                                            <div class="harga-text ">
-                                            <div class="form-group form-md-line-input has-error form-md-floating-label " >
-                                                <div class="input-icon">
-                                                    <input type="number" class="form-control"  id="harga_jual" oninput="hitung_keuntungan()">
-                                                    <label>Harga Jual</label>
-                                                    <span class="help-block">Masukkan harga penjualan terhadap customer</span>
-                                                    <i class="fa fa-shopping-cart"></i>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="form-group form-md-line-input has-success form-md-floating-label">
-                                                <div class="input-icon">
-                                                    <input type="number" class="form-control" id="harga_beli" oninput="hitung_keuntungan()">
-                                                    <label>Harga Beli</label>
-                                                    <span class="help-block">masukkan harga pembelian dari supplier</span>
-                                                    <i class="fa fa-money"></i>
-                                                </div>
-                                            </div>
-
-                                            <div class="form-group form-md-line-input has-error">
-                                                <input type="number" class="form-control" readonly="" value="You can't edit this" id="keuntungan">
-                                                <label for="keuntungan">Keuntungan</label>
-                                            </div>
-                                            </div>
-                                        </div>
                                         <div class="form-actions">
                                             <button type="button" class="btn blue center-block" onclick="hit_register_anggota()">Submit</button>
 <!--                                            <button type="button" class="btn default">Cancel</button>-->
