@@ -169,8 +169,8 @@ License: You must have a valid license purchased only from themeforest(the above
                     <div class="page-head">
                         <!-- BEGIN PAGE TITLE -->
                         <div class="page-title">
-                            <h1>Penjualan
-                                <small>Aksesories</small>
+                            <h1>Report
+                                <small>Dashboard</small>
                             </h1>
                         </div>
                         <!-- END PAGE TITLE -->
@@ -264,11 +264,11 @@ License: You must have a valid license purchased only from themeforest(the above
                             <i class="fa fa-circle"></i>
                         </li>
                         <li>
-                            <a href="#">Input Penjualan</a>
+                            <a href="#">Reporting</a>
                             <i class="fa fa-circle"></i>
                         </li>
                         <li>
-                            <span class="active">Penjualan Aksesories</span>
+                            <span class="active">Dashboard</span>
                         </li>
                     </ul>
                     <!-- END PAGE BREADCRUMB -->
@@ -916,28 +916,28 @@ License: You must have a valid license purchased only from themeforest(the above
                 window.location.href = 'login.html'
             }
 
-            $.ajax({
-                type: "GET",
-                url: "http://47.74.245.145:5000/register_anggota_get_id",
-                // The key needs to match your method's input parameter (case-sensitive).
-                contentType: "application/json; charset=utf-8",
-                dataType: "json",
-                success: function(data){
-                    console.log(data);
-                    var msg = data['msg'];
-                    var response = data['response'];
-                    console.log(msg);
-                    if (data['response'] == 'OK') {
-                       document.getElementById("id_transaksi").value = msg;
-                       // document.getElementById("nama_anggota").value= msg;
-                    } else {
-                        swal("Uhh.. Ohh!!!", "Gagal generate ID Anggota", "error");
-                    }
-                },
-                error: function(XMLHttpRequest, textStatus, errorThrown) {
-                    swal("Uhh.. Ohh!!!", "Gagal generate ID Anggota, Mohon Cek API", "error");
-                }
-            });
+            // $.ajax({
+            //     type: "GET",
+            //     url: "http://47.74.245.145:5000/register_anggota_get_id",
+            //     // The key needs to match your method's input parameter (case-sensitive).
+            //     contentType: "application/json; charset=utf-8",
+            //     dataType: "json",
+            //     success: function(data){
+            //         console.log(data);
+            //         var msg = data['msg'];
+            //         var response = data['response'];
+            //         console.log(msg);
+            //         if (data['response'] == 'OK') {
+            //            document.getElementById("id_transaksi").value = msg;
+            //            // document.getElementById("nama_anggota").value= msg;
+            //         } else {
+            //             swal("Uhh.. Ohh!!!", "Gagal generate ID Anggota", "error");
+            //         }
+            //     },
+            //     error: function(XMLHttpRequest, textStatus, errorThrown) {
+            //         swal("Uhh.. Ohh!!!", "Gagal generate ID Anggota, Mohon Cek API", "error");
+            //     }
+            // });
             document.getElementById("datetimepicker1").value = get_current_date();
 
             $(".form-group").keypress(function (e) {
