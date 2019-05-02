@@ -468,7 +468,7 @@ License: You must have a valid license purchased only from themeforest(the above
                     console.log(data);
                     var msg = data['msg'];
                     if (data['response'] == 'OK') {
-                        swal("Good job!", "Registrasi Berhasil", "success");
+                        swal("Berhasil!", "Registrasi Berhasil", "success");
                         $( "#register-back-btn" ).trigger( "click" );
 
                     } else {
@@ -517,7 +517,7 @@ License: You must have a valid license purchased only from themeforest(the above
                 console.log(data);
                 var msg = data['msg'];
                 if (data['response'] == 'OK') {
-                    swal("Good job!", "Sukses Login", "success");
+                    swal("Berhasil!", "Sukses Login", "success");
                     sessionStorage.setItem("username",json_obj.username);
                     sessionStorage.setItem("fullname",data['fullname']);
                     sessionStorage.setItem("jenis_role",data['jenis_role']);
