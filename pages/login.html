@@ -507,7 +507,7 @@ License: You must have a valid license purchased only from themeforest(the above
         console.log(json_obj);
         $.ajax({
             type: "POST",
-            url: "http://47.74.245.145:5000/login",
+            url: "http://localhost:5000/login",
             // The key needs to match your method's input parameter (case-sensitive).
             data: JSON.stringify(json_obj),
             contentType: "application/json; charset=utf-8",
@@ -520,7 +520,7 @@ License: You must have a valid license purchased only from themeforest(the above
                     sessionStorage.setItem("username",json_obj.username);
                     sessionStorage.setItem("fullname",data['fullname']);
                     sessionStorage.setItem("jenis_role",data['jenis_role']);
-                    window.location ="list_anggota.html";
+                    window.location ="report.html";
                 } else {
                     swal("Uhh.. Ohh!!!", msg, "error");
                 }
