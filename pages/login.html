@@ -59,7 +59,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <body class=" login">
 <!-- BEGIN LOGO -->
 <div class="logo">
-    <a href="list_anggota.html">
+    <a href="report.html">
         <img src="../assets/pages/img/logo-big.png" alt=""/> </a>
 </div>
 <!-- END LOGO -->
@@ -445,7 +445,7 @@ License: You must have a valid license purchased only from themeforest(the above
     $(document).ready(function (){
         $("#register-submit-btn").on("click", function(){
             if ($("#username").val() == "" || $("#password").val() == "" || $("#fullname").val() == "")  {
-                swal("Uhh.. Ohh!!!", "Mohon Lengkapi Form dengan benar", "warning");
+                swal("ERROR!!!", "Mohon Lengkapi Form dengan benar", "warning");
                 return;
             }
             var json_obj = new Object();
@@ -472,7 +472,7 @@ License: You must have a valid license purchased only from themeforest(the above
                         $( "#register-back-btn" ).trigger( "click" );
 
                     } else {
-                        swal("Uhh.. Ohh!!!", msg, "error");
+                        swal("ERROR!!!", msg, "error");
                     }
                 },
                 failure: function(errMsg) {
@@ -523,7 +523,7 @@ License: You must have a valid license purchased only from themeforest(the above
                     sessionStorage.setItem("jenis_role",data['jenis_role']);
                     window.location ="report.html";
                 } else {
-                    swal("Uhh.. Ohh!!!", msg, "error");
+                    swal("ERROR!!!", msg, "error");
                 }
             },
             error: function(XMLHttpRequest, textStatus, errorThrown) {
