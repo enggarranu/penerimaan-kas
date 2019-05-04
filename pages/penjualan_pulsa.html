@@ -1025,19 +1025,23 @@ License: You must have a valid license purchased only from themeforest(the above
         }
 
         function get_operator_denom_by_prefix(){
+            var json_obj = new Object();
+            json_obj.no_hp =  $("#no_hp").val();
+
             $.ajax({
                 type: "POST",
                 url: "http://149.129.241.157:5000/get_operator_denom_by_prefix",
                 // The key needs to match your method's input parameter (case-sensitive).
                 contentType: "application/json; charset=utf-8",
+                data: JSON.stringify(json_obj),
                 dataType: "json",
                 success: function(data){
                     console.log(data);
-                    var msg = data['msg'];
+                    var nama_operator = data['nama_operator'];
                     var response = data['response'];
                     console.log(msg);
                     if (data['response'] == 'OK') {
-                        document.getElementById("id_transaksi").value = msg;
+                        document.getElementById("operator").value = nama_operator;
                         // document.getElementById("nama_anggota").value= msg;
                     } else {
                         swal("Uhh.. Ohh!!!", "Gagal generate ID Anggota", "error");
