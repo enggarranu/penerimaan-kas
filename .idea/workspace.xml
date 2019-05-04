@@ -1,25 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e7343c2-198d-4728-aa97-c5d3d2560155" name="Default" comment="UPDATE HEADER LOGIN MANAGEMENT">
+    <list default="true" id="0e7343c2-198d-4728-aa97-c5d3d2560155" name="Default" comment="Change URL IP">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/form_bayar_cicilan.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/form_bayar_cicilan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/form_pengambilan.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/form_pengambilan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/form_petugas.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/form_petugas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/form_pinjaman.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/form_pinjaman.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/form_setoran.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/form_setoran.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/input_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/input_product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/list_anggota.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/list_anggota.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/list_pengambilan.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/list_pengambilan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/list_pinjaman.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/list_pinjaman.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/list_setoran.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/list_setoran.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login_management.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_management.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/penjualan_aksesories.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/penjualan_aksesories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/penjualan_aksesories_old.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/penjualan_aksesories_old.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/penjualan_pulsa.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/penjualan_pulsa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/service.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/penjualan_pulsa.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="1029" column="78" selection-start-line="1029" selection-start-column="50" selection-end-line="1029" selection-end-column="78" />
+            <state relative-caret-position="-680">
+              <caret line="319" column="75" selection-start-line="319" selection-start-column="69" selection-end-line="319" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -53,9 +37,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Pulsa</find>
-      <find>product inventory</find>
-      <find>rounded.</find>
       <find>.css</find>
       <find>repeater</find>
       <find>data-repeater-item</find>
@@ -83,6 +64,9 @@
       <find>Koperasi Sejahtera</find>
       <find>USRA TAMPI INDONESIA</find>
       <find>list_anggota</find>
+      <find>no hp</find>
+      <find>47.74.245.145</find>
+      <find>get_operator_denom_by_prefix</find>
     </findStrings>
     <replaceStrings>
       <replace>./</replace>
@@ -101,6 +85,7 @@
       <replace>href=&quot;report.html&quot;</replace>
       <replace>Berhasil!</replace>
       <replace>ERROR</replace>
+      <replace>149.129.241.157</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\xampp\htdocs\koperasi\pages</dir>
@@ -299,7 +284,7 @@
       <workItem from="1556613551218" duration="4340000" />
       <workItem from="1556771027058" duration="1092000" />
       <workItem from="1556798018594" duration="3396000" />
-      <workItem from="1556947131604" duration="1857000" />
+      <workItem from="1556947131604" duration="4624000" />
     </task>
     <task id="LOCAL-00001" summary="fix fingsi pinjaman">
       <created>1530877508124</created>
@@ -546,11 +531,32 @@
       <option name="project" value="LOCAL" />
       <updated>1556800807563</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Change URL IP">
+      <created>1556987843199</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1556987843199</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Change URL IP">
+      <created>1556988979228</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1556988979228</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Change URL IP">
+      <created>1556989508610</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1556989508610</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243403000" />
+    <option name="totallyTimeSpent" value="246170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1013" extended-state="6" />
@@ -627,7 +633,8 @@
     <MESSAGE value="update logo and url on logo" />
     <MESSAGE value="udate goodjob" />
     <MESSAGE value="UPDATE HEADER LOGIN MANAGEMENT" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE HEADER LOGIN MANAGEMENT" />
+    <MESSAGE value="Change URL IP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change URL IP" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main/pages/page_user_login_4.html" />
@@ -789,10 +796,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/core-scripting.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="257" column="18" selection-start-line="257" selection-start-column="18" selection-end-line="257" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/penjualan_pulsa.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="1029" column="78" selection-start-line="1029" selection-start-column="50" selection-end-line="1029" selection-end-column="78" />
+        <state relative-caret-position="-680">
+          <caret line="319" column="75" selection-start-line="319" selection-start-column="69" selection-end-line="319" selection-end-column="75" />
         </state>
       </provider>
     </entry>
