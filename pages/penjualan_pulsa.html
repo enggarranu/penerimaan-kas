@@ -317,7 +317,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <label>No HP</label>
                                                     <div class="input-icon">
                                                         <i class="fa fa-tags"></i>
-                                                        <input type="number" class="form-control" id="no_hp"> </div>
+                                                        <input type="number" class="form-control" id="no_hp" ondurationchange="get_operator_denom_by_prefix()"> </div>
                                                 </div>
 
                                                 <div class="col-md-2">
@@ -978,7 +978,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
             $.ajax({
                 type: "GET",
-                url: "http://47.74.245.145:5000/penjualan_pulsa_get_id",
+                url: "http://149.129.241.157:5000/penjualan_pulsa_get_id",
                 // The key needs to match your method's input parameter (case-sensitive).
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
@@ -1022,6 +1022,32 @@ License: You must have a valid license purchased only from themeforest(the above
             var keuntungan = $("#harga_jual").val() - $("#harga_beli").val();
             document.getElementById("keuntungan").value = keuntungan;
 
+        }
+
+        function get_operator_denom_by_prefix(){
+            $.ajax({
+                type: "POST",
+                url: "http://149.129.241.157:5000/get_operator_denom_by_prefix",
+                // The key needs to match your method's input parameter (case-sensitive).
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function(data){
+                    console.log(data);
+                    var msg = data['msg'];
+                    var response = data['response'];
+                    console.log(msg);
+                    if (data['response'] == 'OK') {
+                        document.getElementById("id_transaksi").value = msg;
+                        // document.getElementById("nama_anggota").value= msg;
+                    } else {
+                        swal("Uhh.. Ohh!!!", "Gagal generate ID Anggota", "error");
+                    }
+                },
+                error: function(XMLHttpRequest, textStatus, errorThrown) {
+                    swal("Uhh.. Ohh!!!", "Gagal generate ID Anggota, Mohon Cek API", "error");
+                }
+            });
+            document.getElementById("datetimepicker1").value = get_current_date();
         }
 
         function input_validation(){
@@ -1078,7 +1104,7 @@ License: You must have a valid license purchased only from themeforest(the above
             }, function (isConfirm) {
                 if (!isConfirm) return;
                 $.ajax({
-                    url: "http://47.74.245.145:5000/register_anggota",
+                    url: "http://149.129.241.157:5000/register_anggota",
                     type: "POST",
                     data: JSON.stringify(json_obj),
                     contentType: "application/json; charset=utf-8",

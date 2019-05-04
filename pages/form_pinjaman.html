@@ -992,7 +992,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
             $.ajax({
                 type: "GET",
-                url: "http://47.74.245.145:5000/get_id_transaksi_pinjaman",
+                url: "http://149.129.241.157:5000/get_id_transaksi_pinjaman",
                 // The key needs to match your method's input parameter (case-sensitive).
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
@@ -1113,7 +1113,7 @@ License: You must have a valid license purchased only from themeforest(the above
                     if (!isConfirm) return;
                     console.log(JSON.stringify(json_obj))
                     $.ajax({
-                        url: "http://47.74.245.145:5000/register_pinjaman",
+                        url: "http://149.129.241.157:5000/register_pinjaman",
                         type: "POST",
                         data: JSON.stringify(json_obj),
                         contentType: "application/json; charset=utf-8",

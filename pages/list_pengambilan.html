@@ -1091,7 +1091,7 @@ License: You must have a valid license purchased only from themeforest(the above
     var reload_page = function () {
         $.ajax({
             type: "GET",
-            url: "http://47.74.245.145:5000/inquiry_pengambilan",
+            url: "http://149.129.241.157:5000/inquiry_pengambilan",
             // The key needs to match your method's input parameter (case-sensitive).
             contentType: "application/json; charset=utf-8",
             dataType: "json",
@@ -1167,7 +1167,7 @@ License: You must have a valid license purchased only from themeforest(the above
         },function (isConfirm) {
             if (!isConfirm) return;
             $.ajax({
-                url: "http://47.74.245.145:5000/modify_pinjaman",
+                url: "http://149.129.241.157:5000/modify_pinjaman",
                 type: "POST",
                 data: JSON.stringify(json_obj),
                 contentType: "application/json; charset=utf-8",
@@ -1204,7 +1204,7 @@ License: You must have a valid license purchased only from themeforest(the above
         }, function (isConfirm) {
             if (!isConfirm) return;
             $.ajax({
-                url: "http://47.74.245.145:5000/delete_anggota",
+                url: "http://149.129.241.157:5000/delete_anggota",
                 type: "POST",
                 data: JSON.stringify(json_obj),
                 contentType: "application/json; charset=utf-8",

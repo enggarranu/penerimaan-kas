@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e7343c2-198d-4728-aa97-c5d3d2560155" name="Default" comment="udate goodjob">
+    <list default="true" id="0e7343c2-198d-4728-aa97-c5d3d2560155" name="Default" comment="UPDATE HEADER LOGIN MANAGEMENT">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/form_bayar_cicilan.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/form_bayar_cicilan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/form_pengambilan.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/form_pengambilan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/form_petugas.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/form_petugas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/form_pinjaman.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/form_pinjaman.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/form_setoran.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/form_setoran.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/input_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/input_product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/list_anggota.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/list_anggota.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/list_pengambilan.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/list_pengambilan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/list_pinjaman.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/list_pinjaman.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/list_setoran.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/list_setoran.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login_management.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_management.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/penjualan_aksesories.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/penjualan_aksesories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/penjualan_aksesories_old.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/penjualan_aksesories_old.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/penjualan_pulsa.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/penjualan_pulsa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/service.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/service.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,70 +32,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/penjualan_pulsa.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14700">
-              <caret line="980" column="70" selection-start-line="980" selection-start-column="70" selection-end-line="980" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/sidebar-menu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/report.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="72" column="71" selection-start-line="72" selection-start-column="71" selection-end-line="72" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/layouts/layout4/img/logo-light.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-              <folding>
-                <element signature="n#select#0;n#div#4;n#form#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#21924#21930#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/pages/img/logo-big.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/input_product.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="276" column="45" selection-start-line="276" selection-start-column="45" selection-end-line="276" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+            <state relative-caret-position="210">
+              <caret line="1029" column="78" selection-start-line="1029" selection-start-column="50" selection-end-line="1029" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -121,11 +78,11 @@
       <find>No hp</find>
       <find>Uhh.. Ohh</find>
       <find>href=&quot;list_anggota.html&quot;</find>
-      <find>list_anggota</find>
       <find>list_anggota.html</find>
       <find>Good job!</find>
       <find>Koperasi Sejahtera</find>
       <find>USRA TAMPI INDONESIA</find>
+      <find>list_anggota</find>
     </findStrings>
     <replaceStrings>
       <replace>./</replace>
@@ -142,8 +99,8 @@
       <replace>Aksesories</replace>
       <replace>Penjualan Aksesories</replace>
       <replace>href=&quot;report.html&quot;</replace>
-      <replace>ERROR</replace>
       <replace>Berhasil!</replace>
+      <replace>ERROR</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\xampp\htdocs\koperasi\pages</dir>
@@ -200,10 +157,10 @@
         <option value="$PROJECT_DIR$/pages/input_product.html" />
         <option value="$PROJECT_DIR$/pages/service.html" />
         <option value="$PROJECT_DIR$/pages/sidebar-menu.html" />
-        <option value="$PROJECT_DIR$/pages/penjualan_pulsa.html" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/pages/report.html" />
         <option value="$PROJECT_DIR$/pages/login.html" />
+        <option value="$PROJECT_DIR$/pages/report.html" />
+        <option value="$PROJECT_DIR$/pages/penjualan_pulsa.html" />
       </list>
     </option>
   </component>
@@ -222,7 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,6 +200,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -341,7 +298,8 @@
       <workItem from="1556343127515" duration="6306000" />
       <workItem from="1556613551218" duration="4340000" />
       <workItem from="1556771027058" duration="1092000" />
-      <workItem from="1556798018594" duration="2535000" />
+      <workItem from="1556798018594" duration="3396000" />
+      <workItem from="1556947131604" duration="1857000" />
     </task>
     <task id="LOCAL-00001" summary="fix fingsi pinjaman">
       <created>1530877508124</created>
@@ -567,23 +525,43 @@
       <option name="project" value="LOCAL" />
       <updated>1556800337949</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="UPDATE HEADER LOGIN MANAGEMENT">
+      <created>1556800577464</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1556800577464</updated>
+    </task>
+    <task id="LOCAL-00034" summary="UPDATE HEADER LOGIN MANAGEMENT">
+      <created>1556800731651</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1556800731651</updated>
+    </task>
+    <task id="LOCAL-00035" summary="UPDATE HEADER LOGIN MANAGEMENT">
+      <created>1556800807563</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1556800807563</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240685000" />
+    <option name="totallyTimeSpent" value="243403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1013" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2978387" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2978387" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Gulp" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3295325" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295325" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32979977" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -648,7 +626,8 @@
     <MESSAGE value="update login" />
     <MESSAGE value="update logo and url on logo" />
     <MESSAGE value="udate goodjob" />
-    <option name="LAST_COMMIT_MESSAGE" value="udate goodjob" />
+    <MESSAGE value="UPDATE HEADER LOGIN MANAGEMENT" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATE HEADER LOGIN MANAGEMENT" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main/pages/page_user_login_4.html" />
@@ -766,22 +745,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/penjualan_pulsa.html">
+    <entry file="file://$PROJECT_DIR$/assets/layouts/layout4/img/logo-light.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14700">
-          <caret line="980" column="70" selection-start-line="980" selection-start-column="70" selection-end-line="980" selection-end-column="70" />
+        <state relative-caret-position="3855">
+          <caret line="493" column="7" selection-start-line="493" selection-start-column="7" selection-end-line="493" selection-end-column="7" />
+          <folding>
+            <element signature="n#select#0;n#div#4;n#form#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/pages/img/logo-big.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/input_product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4140">
+          <caret line="276" column="45" selection-start-line="276" selection-start-column="45" selection-end-line="276" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/pages/img/logo-big.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/pages/report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="939" column="18" selection-start-line="939" selection-start-column="18" selection-end-line="939" selection-end-column="18" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/sidebar-menu.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -790,34 +789,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/report.html">
+    <entry file="file://$PROJECT_DIR$/pages/penjualan_pulsa.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="72" column="71" selection-start-line="72" selection-start-column="71" selection-end-line="72" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/layouts/layout4/img/logo-light.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/pages/img/logo-big.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/input_product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="276" column="45" selection-start-line="276" selection-start-column="45" selection-end-line="276" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding>
-            <element signature="n#select#0;n#div#4;n#form#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#21924#21930#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="1029" column="78" selection-start-line="1029" selection-start-column="50" selection-end-line="1029" selection-end-column="78" />
         </state>
       </provider>
     </entry>
