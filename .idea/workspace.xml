@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/penjualan_pulsa.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-680">
-              <caret line="319" column="75" selection-start-line="319" selection-start-column="69" selection-end-line="319" selection-end-column="75" />
+            <state relative-caret-position="460">
+              <caret line="1040" column="62" selection-start-line="1040" selection-start-column="62" selection-end-line="1040" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -284,7 +284,8 @@
       <workItem from="1556613551218" duration="4340000" />
       <workItem from="1556771027058" duration="1092000" />
       <workItem from="1556798018594" duration="3396000" />
-      <workItem from="1556947131604" duration="4624000" />
+      <workItem from="1556947131604" duration="5129000" />
+      <workItem from="1557065652687" duration="1467000" />
     </task>
     <task id="LOCAL-00001" summary="fix fingsi pinjaman">
       <created>1530877508124</created>
@@ -552,11 +553,25 @@
       <option name="project" value="LOCAL" />
       <updated>1556989508610</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Change URL IP">
+      <created>1556990576173</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1556990576173</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Change URL IP">
+      <created>1556990911131</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1556990911131</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246170000" />
+    <option name="totallyTimeSpent" value="248142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1013" extended-state="6" />
@@ -755,16 +770,6 @@
     <entry file="file://$PROJECT_DIR$/assets/layouts/layout4/img/logo-light.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3855">
-          <caret line="493" column="7" selection-start-line="493" selection-start-column="7" selection-end-line="493" selection-end-column="7" />
-          <folding>
-            <element signature="n#select#0;n#div#4;n#form#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/pages/img/logo-big.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -803,10 +808,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="468" column="42" selection-start-line="468" selection-start-column="20" selection-end-line="468" selection-end-column="42" />
+          <folding>
+            <element signature="n#select#0;n#div#4;n#form#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/penjualan_pulsa.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="319" column="75" selection-start-line="319" selection-start-column="69" selection-end-line="319" selection-end-column="75" />
+        <state relative-caret-position="460">
+          <caret line="1040" column="62" selection-start-line="1040" selection-start-column="62" selection-end-line="1040" selection-end-column="62" />
         </state>
       </provider>
     </entry>

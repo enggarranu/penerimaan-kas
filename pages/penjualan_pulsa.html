@@ -1039,8 +1039,6 @@ License: You must have a valid license purchased only from themeforest(the above
                 success: function(data){
                     console.log(data);
                     var nama_operator = data['nama_operator'];
-                    var response = data['response'];
-                    console.log(msg);
                     if (data['response'] == 'OK') {
                         document.getElementById("operator").value = nama_operator;
                         // document.getElementById("nama_anggota").value= msg;
