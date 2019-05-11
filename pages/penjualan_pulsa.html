@@ -237,7 +237,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <div class="input-icon">
                                                         <i class="fa fa-tags"></i>
                                                         <input type="text" class="form-control" id="denom" list="denom_list">
-                                                        <datalist id="denom_list"></div>
+                                                        <datalist id="denom_list"></datalist></div>
                                                 </div>
                                             </div>
 
@@ -253,6 +253,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         <div class="form-actions">
                                             <button type="button" class="btn blue center-block" onclick="submit_data()">Submit</button>
 <!--                                            <button type="button" class="btn default">Cancel</button>-->
+                                        </div>
                                         </div>
                                     </form>
                                 </div>
@@ -374,6 +375,8 @@ License: You must have a valid license purchased only from themeforest(the above
                 window.location.href = 'login.html'
             }
 
+            var denom_list = "";
+
             $.ajax({
                 type: "GET",
                 url: "http://149.129.241.157:5000/penjualan_pulsa_get_id",
@@ -441,6 +444,7 @@ License: You must have a valid license purchased only from themeforest(the above
                         var options = '';
                         var list_denom = data['denom_arr'];
                         console.log(list_denom);
+                        denom_list = list_denom
                         for (var i = 0; i < list_denom.length; i++){
                             var o_value = list_denom[i];
                             options += '<option value="'+o_value+'">'+o_value+'</option>';
@@ -469,6 +473,13 @@ License: You must have a valid license purchased only from themeforest(the above
                 $("#denom").focus();
                 return false;
             }
+
+            if (jQuery.inArray( $("#denom").val(), denom_list) == -1){
+
+                swal("ERROR!!!", "Denom tidak sesuai dengan product yang disediakan operator", "warning");
+                $("#denom").focus();
+                return false;
+            }
             return true;
 
             alert("end validation")
@@ -480,11 +491,11 @@ License: You must have a valid license purchased only from themeforest(the above
             }
 
             var dateObject = $("#tanggal_transaksi").datepicker('getDate');
-            console.log($.datepicker.formatDate('yyyy-mm-dd', dateObject));
+            console.log($.datepicker.formatDate('yy-mm-dd', dateObject));
 
             // alert("tembak belakang")
             var json_obj = new Object();
-            json_obj.tanggal_registrasi = $.datepicker.formatDate('yyyy-mm-dd', dateObject);
+            json_obj.tanggal_registrasi = $.datepicker.formatDate('yy-mm-dd', dateObject);
             json_obj.id_transaksi = $("#id_transaksi").val();
             json_obj.operator = $("#operator").val();
             json_obj.no_hp = $("#no_hp").val();
@@ -501,32 +512,33 @@ License: You must have a valid license purchased only from themeforest(the above
                 closeOnConfirm: false
             }, function (isConfirm) {
                 if (!isConfirm) return;
-                $.ajax({
-                    url: "http://149.129.241.157:5000/register_anggota",
-                    type: "POST",
-                    data: JSON.stringify(json_obj),
-                    contentType: "application/json; charset=utf-8",
-                    dataType: "json",
-                    success: function (data) {
-                        console.log(data);
-                        if (data['response'] == 'NOK') {
-                            swal("Error!", data['msg'], "warning");
-                            $('#no_hp').focus
-                            return;
-                        }
-                        else {
-                            swal("Done!", "registrasi berhasil!", "success");
-                            setTimeout(
-                            function()
-                            {
-                                window.location.href="report.html"
-                            }, 1500);
-                        }
-                    },
-                    error: function (xhr, ajaxOptions, thrownError) {
-                        swal("Error Saat registrasi!", "Please try again", "error");
-                    }
-                });
+                swal("Done!", "MAAF FUNGSINYA MASIH DUMMY!", "success");
+                // $.ajax({
+                //     url: "http://149.129.241.157:5000/register_anggota",
+                //     type: "POST",
+                //     data: JSON.stringify(json_obj),
+                //     contentType: "application/json; charset=utf-8",
+                //     dataType: "json",
+                //     success: function (data) {
+                //         console.log(data);
+                //         if (data['response'] == 'NOK') {
+                //             swal("Error!", data['msg'], "warning");
+                //             $('#no_hp').focus
+                //             return;
+                //         }
+                //         else {
+                //             swal("Done!", "registrasi berhasil!", "success");
+                //             setTimeout(
+                //             function()
+                //             {
+                //                 window.location.href="report.html"
+                //             }, 1500);
+                //         }
+                //     },
+                //     error: function (xhr, ajaxOptions, thrownError) {
+                //         swal("Error Saat registrasi!", "Please try again", "error");
+                //     }
+                // });
             });
         }
     </script>
