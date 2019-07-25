@@ -19,8 +19,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/penjualan_pulsa.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="1040" column="62" selection-start-line="1040" selection-start-column="62" selection-end-line="1040" selection-end-column="62" />
+            <state relative-caret-position="39">
+              <caret line="517" column="77" selection-start-line="517" selection-start-column="77" selection-end-line="517" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/report_old.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/form_pengambilan.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15135">
+              <caret line="1009" column="49" selection-start-line="1003" selection-start-column="24" selection-end-line="1011" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -37,19 +51,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.css</find>
-      <find>repeater</find>
-      <find>data-repeater-item</find>
-      <find>input de</find>
-      <find>col-md-6</find>
-      <find>.harga-text</find>
-      <find>data-repeater-create</find>
-      <find>Catatan</find>
-      <find>Joined</find>
-      <find>Product Descriptio</find>
-      <find>Salted</find>
-      <find>ID Tran</find>
-      <find>Jasa Service</find>
       <find>price</find>
       <find>Jasa</find>
       <find>harga bel</find>
@@ -67,6 +68,19 @@
       <find>no hp</find>
       <find>47.74.245.145</find>
       <find>get_operator_denom_by_prefix</find>
+      <find>denom</find>
+      <find>list_nama_anggota</find>
+      <find>tanggal</find>
+      <find>/assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js&quot;</find>
+      <find>/assets/pages/scripts/components-date-time-pickers.min.js</find>
+      <find>date-p</find>
+      <find>get_current_date</find>
+      <find>datetime</find>
+      <find>sidebar-menu</find>
+      <find>getdate</find>
+      <find>sidebar_menu</find>
+      <find>id_transaksi</find>
+      <find>hit_register_anggota</find>
     </findStrings>
     <replaceStrings>
       <replace>./</replace>
@@ -153,10 +167,10 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="117" />
-    <option name="y" value="289" />
-    <option name="width" value="1372" />
-    <option name="height" value="751" />
+    <option name="x" value="374" />
+    <option name="y" value="163" />
+    <option name="width" value="1362" />
+    <option name="height" value="758" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -164,6 +178,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,7 +200,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,7 +299,12 @@
       <workItem from="1556771027058" duration="1092000" />
       <workItem from="1556798018594" duration="3396000" />
       <workItem from="1556947131604" duration="5129000" />
-      <workItem from="1557065652687" duration="1467000" />
+      <workItem from="1557065652687" duration="1516000" />
+      <workItem from="1557551949718" duration="139000" />
+      <workItem from="1557553531117" duration="10741000" />
+      <workItem from="1563978540525" duration="731000" />
+      <workItem from="1564043371209" duration="985000" />
+      <workItem from="1564045566834" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="fix fingsi pinjaman">
       <created>1530877508124</created>
@@ -567,14 +586,49 @@
       <option name="project" value="LOCAL" />
       <updated>1556990911131</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Change URL IP">
+      <created>1557068375517</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1557068375517</updated>
+    </task>
+    <task id="LOCAL-00042" summary="get nama denom list">
+      <created>1557555965980</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1557555965981</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Change URL IP">
+      <created>1557556071343</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1557556071343</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Change URL IP">
+      <created>1557585525898</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1557585525898</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Change URL IP">
+      <created>1557590185564</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1557590185565</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248142000" />
+    <option name="totallyTimeSpent" value="260794000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1013" extended-state="6" />
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2978387" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -591,7 +645,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3295325" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3295325" />
+      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.3293348" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -648,12 +702,11 @@
     <MESSAGE value="update logo and url on logo" />
     <MESSAGE value="udate goodjob" />
     <MESSAGE value="UPDATE HEADER LOGIN MANAGEMENT" />
+    <MESSAGE value="get nama denom list" />
     <MESSAGE value="Change URL IP" />
     <option name="LAST_COMMIT_MESSAGE" value="Change URL IP" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main/pages/page_user_login_4.html" />
-    <entry file="file://$PROJECT_DIR$/assets/pages/scripts/table-datatables-editable.min.js" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/phrase.rnc" />
     <entry file="file://$PROJECT_DIR$/assets/global/plugins/respond.min.js" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/core-scripting.rnc" />
@@ -731,23 +784,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/form_pengambilan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="292" column="83" selection-start-line="292" selection-start-column="66" selection-end-line="292" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/form_repeater.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="1849" column="113" lean-forward="true" selection-start-line="1847" selection-start-column="39" selection-end-line="1849" selection-end-column="113" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/report_old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/form_petugas.html">
@@ -818,10 +859,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="859" column="51" selection-start-line="859" selection-start-column="44" selection-end-line="859" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="124" column="4" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/penjualan_pulsa.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="1040" column="62" selection-start-line="1040" selection-start-column="62" selection-end-line="1040" selection-end-column="62" />
+        <state relative-caret-position="39">
+          <caret line="517" column="77" selection-start-line="517" selection-start-column="77" selection-end-line="517" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/report_old.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/form_pengambilan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15135">
+          <caret line="1009" column="49" selection-start-line="1003" selection-start-column="24" selection-end-line="1011" selection-end-column="89" />
         </state>
       </provider>
     </entry>

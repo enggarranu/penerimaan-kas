@@ -502,6 +502,7 @@ License: You must have a valid license purchased only from themeforest(the above
             json_obj.denom = $("#denom").val();
             json_obj.catatan = $("#catatan").val();
             console.log(json_obj);
+            console.log(JSON.stringify(json_obj));
             swal({
                 title: "Yakin data sudah benar?",
                 text: "You will not be able to recover this imaginary file!",
@@ -512,33 +513,33 @@ License: You must have a valid license purchased only from themeforest(the above
                 closeOnConfirm: false
             }, function (isConfirm) {
                 if (!isConfirm) return;
-                swal("Done!", "MAAF FUNGSINYA MASIH DUMMY!", "success");
-                // $.ajax({
-                //     url: "http://149.129.241.157:5000/register_anggota",
-                //     type: "POST",
-                //     data: JSON.stringify(json_obj),
-                //     contentType: "application/json; charset=utf-8",
-                //     dataType: "json",
-                //     success: function (data) {
-                //         console.log(data);
-                //         if (data['response'] == 'NOK') {
-                //             swal("Error!", data['msg'], "warning");
-                //             $('#no_hp').focus
-                //             return;
-                //         }
-                //         else {
-                //             swal("Done!", "registrasi berhasil!", "success");
-                //             setTimeout(
-                //             function()
-                //             {
-                //                 window.location.href="report.html"
-                //             }, 1500);
-                //         }
-                //     },
-                //     error: function (xhr, ajaxOptions, thrownError) {
-                //         swal("Error Saat registrasi!", "Please try again", "error");
-                //     }
-                // });
+                //swal("Done!", "MAAF FUNGSINYA MASIH DUMMY!", "success");
+                $.ajax({
+                    url: "http://149.129.241.157:5000/input_penjualan_pulsa",
+                    type: "POST",
+                    data: JSON.stringify(json_obj),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (data) {
+                        console.log(data);
+                        if (data['response'] == 'NOK') {
+                            swal("Error!", data['msg'], "warning");
+                            $('#no_hp').focus
+                            return;
+                        }
+                        else {
+                            swal("Done!", "registrasi berhasil!", "success");
+                            setTimeout(
+                            function()
+                            {
+                                window.location.href="report.html"
+                            }, 1500);
+                        }
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        swal("Error Saat registrasi!", "Please try again", "error");
+                    }
+                });
             });
         }
     </script>
