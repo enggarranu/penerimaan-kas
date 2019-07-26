@@ -289,7 +289,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 <label>ID atau Nama Anggota</label>
                                                 <div class="input-icon">
                                                     <i class="fa fa-tags"></i>
-                                                    <input type="text" class="form-control" id="id_anggota" placeholder="Cari Bedasarkan ID Anggota / Nama Anggota" list="list_nama_anggota" onfocusout="get_data_pinjaman()">
+                                                    <input type="text" class="form-control" id="id_anggota" placeholder="Cari Bedasarkan ID Transaksi / Nama Anggota" list="list_nama_anggota" onfocusout="get_data_pinjaman()">
                                                     <datalist id="list_nama_anggota">
                                                     </datalist>
                                                 </div>
@@ -1017,11 +1017,11 @@ License: You must have a valid license purchased only from themeforest(the above
 
 
                     } else {
-                        swal("Uhh.. Ohh!!!", "Gagal generate ID Anggota", "error");
+                        swal("Uhh.. Ohh!!!", "Gagal generate ID Transaksi", "error");
                     }
                 },
                 error: function(XMLHttpRequest, textStatus, errorThrown) {
-                    swal("Uhh.. Ohh!!!", "Gagal generate ID Anggota, Mohon Cek API", "error");
+                    swal("Uhh.. Ohh!!!", "Gagal generate ID Transaksi, Mohon Cek API", "error");
                 }
             });
             document.getElementById("datetimepicker1").value = get_current_date();
@@ -1137,7 +1137,7 @@ License: You must have a valid license purchased only from themeforest(the above
                             document.getElementById("saldo").value = saldo;
                             document.getElementById("jumlah_pinjaman").value = jumlah_pinjaman;
                         } else {
-                            swal("Uhh.. Ohh!!!", "Mohon Pilih ID Anggota / Nama Anggota", "error");
+                            swal("Uhh.. Ohh!!!", "Mohon Pilih ID Transaksi / Nama Anggota", "error");
                         }
                     },
                     error: function(XMLHttpRequest, textStatus, errorThrown) {
