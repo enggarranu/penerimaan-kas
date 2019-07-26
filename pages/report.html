@@ -280,7 +280,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         src="http://149.129.241.157:3000/public/dashboard/fd50b436-2a07-4686-bebb-528b1894d26d"
                                         frameborder="0"
                                         width="100%"
-                                        height="700"
+                                        height="100%"
                                         allowtransparency
                                 ></iframe>
                             </div>
@@ -904,9 +904,9 @@ License: You must have a valid license purchased only from themeforest(the above
     <script>
 
         $(document).ready(function (){
-            // if(sessionStorage.getItem("username") == null || sessionStorage.getItem("username") == "") {
-            //     window.location.href = 'login.html';
-            // }
+            if(sessionStorage.getItem("username") == null || sessionStorage.getItem("username") == "") {
+                window.location.href = 'login.html';
+            }
             var display_uname = "Hello, Selamat datang " + sessionStorage.getItem("username");
             document.getElementById('username').innerHTML = display_uname;
             // document.getElementById("datetimepicker1").value = moment().format("YYYY-MM-DD");
