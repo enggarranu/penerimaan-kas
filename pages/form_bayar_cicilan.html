@@ -1059,11 +1059,11 @@ License: You must have a valid license purchased only from themeforest(the above
                         document.getElementById('list_nama_anggota').innerHTML = options;
 
                     } else {
-                        swal("Uhh.. Ohh!!!", "Gagal generate ID Transaksi", "error");
+                        swal("Internal Error!!", "Gagal generate ID Transaksi", "error");
                     }
                 },
                 error: function(XMLHttpRequest, textStatus, errorThrown) {
-                    swal("Uhh.. Ohh!!!", "Gagal generate ID Transaksi, Mohon Cek API", "error");
+                    swal("Internal Error!!", "Gagal generate ID Transaksi, Mohon Cek API", "error");
                 }
             });
             document.getElementById("datetimepicker1").value = get_current_date();
@@ -1200,11 +1200,11 @@ License: You must have a valid license purchased only from themeforest(the above
                             document.getElementById("sisa_angsuran").value = sisa_angsuran;
                             document.getElementById("angsuran_ke").value = angsuran_ke;
                         } else {
-                            swal("Uhh.. Ohh!!!", "Mohon Pilih ID Transaksi / Nama Anggota", "error");
+                            swal("Internal Error!!", "Mohon Pilih ID Transaksi / Nama Anggota", "error");
                         }
                     },
                     error: function(XMLHttpRequest, textStatus, errorThrown) {
-                        swal("Uhh.. Ohh!!!", "Gagal, Mohon Cek API", "error");
+                        swal("Internal Error!!", "Gagal, Mohon Cek API", "error");
                     }
                 });
             }

@@ -1011,11 +1011,11 @@ License: You must have a valid license purchased only from themeforest(the above
                        document.getElementById("id_petugas").value = msg;
                        // document.getElementById("nama_anggota").value= msg;
                     } else {
-                        swal("Uhh.. Ohh!!!", "Gagal generate ID Petugas", "error");
+                        swal("Internal Error!!", "Gagal generate ID Petugas", "error");
                     }
                 },
                 error: function(XMLHttpRequest, textStatus, errorThrown) {
-                    swal("Uhh.. Ohh!!!", "Gagal generate ID Petugas, Mohon Cek API", "error");
+                    swal("Internal Error!!", "Gagal generate ID Petugas, Mohon Cek API", "error");
                 }
             });
             document.getElementById("datetimepicker1").value = get_current_date();
@@ -1093,7 +1093,7 @@ License: You must have a valid license purchased only from themeforest(the above
                 return;
             } else {
                 if ($("#username_register").val() == "" || $("#password").val() == "" || $("#nama_petugas").val() == "")  {
-                    swal("Uhh.. Ohh!!!", "Mohon Lengkapi Form dengan benar", "warning");
+                    swal("Internal Error!!", "Mohon Lengkapi Form dengan benar", "warning");
                     return;
                 }
                 var json_obj = new Object();
@@ -1121,7 +1121,7 @@ License: You must have a valid license purchased only from themeforest(the above
                             $( "#register-back-btn" ).trigger( "click" );
                             window.location.href = 'login_management.html';
                         } else {
-                            swal("Uhh.. Ohh!!!", msg, "error");
+                            swal("Internal Error!!", msg, "error");
                         }
                     },
                     failure: function(errMsg) {

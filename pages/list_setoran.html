@@ -1117,11 +1117,11 @@ License: You must have a valid license purchased only from themeforest(the above
                         showModal(data);
                     });
                 } else {
-                    swal("Uhh.. Ohh!!!", "Gagal Mendapatkan List Transaksi", "error");
+                    swal("Internal Error!!", "Gagal Mendapatkan List Transaksi", "error");
                 }
             },
             error: function (XMLHttpRequest, textStatus, errorThrown) {
-                swal("Uhh.. Ohh!!!", "Gagal generate ID Transaksi, Mohon Cek API", "error");
+                swal("Internal Error!!", "Gagal generate ID Transaksi, Mohon Cek API", "error");
             }
         });
     }

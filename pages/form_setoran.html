@@ -1011,11 +1011,11 @@ License: You must have a valid license purchased only from themeforest(the above
 
 
                     } else {
-                        swal("Uhh.. Ohh!!!", "Gagal generate ID Transaksi", "error");
+                        swal("Internal Error!!", "Gagal generate ID Transaksi", "error");
                     }
                 },
                 error: function(XMLHttpRequest, textStatus, errorThrown) {
-                    swal("Uhh.. Ohh!!!", "Gagal generate ID Transaksi, Mohon Cek API", "error");
+                    swal("Internal Error!!", "Gagal generate ID Transaksi, Mohon Cek API", "error");
                 }
             });
             document.getElementById("datetimepicker1").value = get_current_date();
