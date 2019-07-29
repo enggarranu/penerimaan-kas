@@ -911,10 +911,6 @@ License: You must have a valid license purchased only from themeforest(the above
             document.getElementById('username').innerHTML = display_uname;
             // document.getElementById("datetimepicker1").value = moment().format("YYYY-MM-DD");
 
-            function logout() {
-                sessionStorage.removeItem("username");
-                window.location.href = 'login.html'
-            }
 
             // $.ajax({
             //     type: "GET",
@@ -947,6 +943,11 @@ License: You must have a valid license purchased only from themeforest(the above
 
 
         });
+
+        function logout() {
+                sessionStorage.removeItem("username");
+                window.location.href = 'login.html'
+        }
 
         function get_current_date(){
             var date_input = new Date();
