@@ -290,7 +290,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <div class="row mt-repeater-row">
                                                         <div class="col-md-7">
                                                             <label class="control-label">Product Variation</label>
-                                                            <input type="text" placeholder="Salted Tuna" class="form-control" /> </div>
+                                                            <input type="text" placeholder="LCD Samsung" class="form-control" /> </div>
                                                         <div class="col-md-2">
                                                             <label class="control-label">Harga Beli</label>
                                                             <input type="text" placeholder="3" class="form-control" /> </div>
@@ -948,28 +948,28 @@ License: You must have a valid license purchased only from themeforest(the above
                 window.location.href = 'login.html'
             }
 
-            $.ajax({
-                type: "GET",
-                url: "http://149.129.241.157:5000/register_anggota_get_id",
-                // The key needs to match your method's input parameter (case-sensitive).
-                contentType: "application/json; charset=utf-8",
-                dataType: "json",
-                success: function(data){
-                    console.log(data);
-                    var msg = data['msg'];
-                    var response = data['response'];
-                    console.log(msg);
-                    if (data['response'] == 'OK') {
-                       document.getElementById("id_transaksi").value = msg;
-                       // document.getElementById("nama_anggota").value= msg;
-                    } else {
-                        swal("Internal Error!!", "Gagal generate ID Transaksi", "error");
-                    }
-                },
-                error: function(XMLHttpRequest, textStatus, errorThrown) {
-                    swal("Internal Error!!", "Gagal generate ID Transaksi, Mohon Cek API", "error");
-                }
-            });
+            // $.ajax({
+            //     type: "GET",
+            //     url: "http://149.129.241.157:5000/register_anggota_get_id",
+            //     // The key needs to match your method's input parameter (case-sensitive).
+            //     contentType: "application/json; charset=utf-8",
+            //     dataType: "json",
+            //     success: function(data){
+            //         console.log(data);
+            //         var msg = data['msg'];
+            //         var response = data['response'];
+            //         console.log(msg);
+            //         if (data['response'] == 'OK') {
+            //            document.getElementById("id_transaksi").value = msg;
+            //            // document.getElementById("nama_anggota").value= msg;
+            //         } else {
+            //             swal("Internal Error!!", "Gagal generate ID Transaksi", "error");
+            //         }
+            //     },
+            //     error: function(XMLHttpRequest, textStatus, errorThrown) {
+            //         swal("Internal Error!!", "Gagal generate ID Transaksi, Mohon Cek API", "error");
+            //     }
+            // });
             document.getElementById("datetimepicker1").value = get_current_date();
 
             $(".form-group").keypress(function (e) {
@@ -1048,33 +1048,34 @@ License: You must have a valid license purchased only from themeforest(the above
                 confirmButtonText: "Yes, data sudah benar!",
                 closeOnConfirm: false
             }, function (isConfirm) {
+                swal("Done!", "registrasi berhasil!", "success");
                 if (!isConfirm) return;
-                $.ajax({
-                    url: "http://149.129.241.157:5000/register_anggota",
-                    type: "POST",
-                    data: JSON.stringify(json_obj),
-                    contentType: "application/json; charset=utf-8",
-                    dataType: "json",
-                    success: function (data) {
-                        console.log(data);
-                        if (data['response'] == 'NOK') {
-                            swal("Error!", data['msg'], "warning");
-                            $('#no_ktp').focus
-                            return;
-                        }
-                        else {
-                            swal("Done!", "registrasi berhasil!", "success");
-                            setTimeout(
-                            function()
-                            {
-                                window.location.href="report.html"
-                            }, 1500);
-                        }
-                    },
-                    error: function (xhr, ajaxOptions, thrownError) {
-                        swal("Error Saat registrasi!", "Please try again", "error");
-                    }
-                });
+                // $.ajax({
+                //     url: "http://149.129.241.157:5000/register_anggota",
+                //     type: "POST",
+                //     data: JSON.stringify(json_obj),
+                //     contentType: "application/json; charset=utf-8",
+                //     dataType: "json",
+                //     success: function (data) {
+                //         console.log(data);
+                //         if (data['response'] == 'NOK') {
+                //             swal("Error!", data['msg'], "warning");
+                //             $('#no_ktp').focus
+                //             return;
+                //         }
+                //         else {
+                //             swal("Done!", "registrasi berhasil!", "success");
+                //             setTimeout(
+                //             function()
+                //             {
+                //                 window.location.href="report.html"
+                //             }, 1500);
+                //         }
+                //     },
+                //     error: function (xhr, ajaxOptions, thrownError) {
+                //         swal("Error Saat registrasi!", "Please try again", "error");
+                //     }
+                // });
             });
         }
     </script>
