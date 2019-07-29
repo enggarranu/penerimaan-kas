@@ -936,9 +936,9 @@ License: You must have a valid license purchased only from themeforest(the above
     <script>
 
         $(document).ready(function (){
-            // if(sessionStorage.getItem("username") == null || sessionStorage.getItem("username") == "") {
-            //     window.location.href = 'login.html';
-            // }
+            if(sessionStorage.getItem("username") == null || sessionStorage.getItem("username") == "") {
+                window.location.href = 'login.html';
+            }
             var display_uname = "Hello, Selamat datang " + sessionStorage.getItem("username");
             document.getElementById('username').innerHTML = display_uname;
             // document.getElementById("datetimepicker1").value = moment().format("YYYY-MM-DD");
